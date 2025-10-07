@@ -47,8 +47,9 @@ let package = Package(
     ),
   ],
   dependencies: [
-    //        .package(url: "https://github.com/realm/realm-core", .exact(Version(coreVersionStr)!)),
-    .package(path: "realm-core"),
+    .package(url: "https://gitee.com/mirrors_intiocean/realm-core", .exact(Version(coreVersionStr)!)),
+    // .package(url: "https://github.com/realm/realm-core", .exact(Version(coreVersionStr)!)),
+    // .package(path: "realm-core"),
   ],
   targets: [
     .target(
